@@ -1,1 +1,12 @@
 Comandos Git
+
+pwd: me da la ruta actual
+ls: me dice que archivos se contienen en la ruta (carpeta) actual
+git config -l: me dice la configuracion actual de git
+git config --global user.name "Fredy Alexander Hoyos Ariza": establece el nombre de ususario Fredy Alexander Hoyos Ariza en la config local
+git config --global user.email "donotgobehind@gmail.com": establece el email de usuario
+git branch -m master main: se cambia el nombre de la rama principal de master a main
+git branch: me indica las ramas actuales del proyecto
+git status: permite ver el estado actual del repositorio; que archivos se contienen cuales se siguen y cuales no
+git add .: agrega al repositorio todos los archivos que no estan siendo seguidos
+git commit -m "Retomo los comits": Se agrega un commit (especie de punto de restauracion de los archivos que esten siendo trackeados), el mensaje del commit debe ser descriptivo de los cambios que fueron realizados en el codigo desde el commit anterior
