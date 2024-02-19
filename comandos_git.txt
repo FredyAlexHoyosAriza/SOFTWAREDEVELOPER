@@ -10,3 +10,8 @@ git branch: me indica las ramas actuales del proyecto
 git status: permite ver el estado actual del repositorio; que archivos se contienen cuales se siguen y cuales no
 git add .: agrega al repositorio todos los archivos que no estan siendo seguidos
 git commit -m "Retomo los comits": Se agrega un commit (especie de punto de restauracion de los archivos que esten siendo trackeados), el mensaje del commit debe ser descriptivo de los cambios que fueron realizados en el codigo desde el commit anterior
+git status: me muestra que todo va bien y que actualmente no se requiere un commit
+git commit -am "mensaje descritivo sobre los cambios realizados": este comando no solo crea un commit sino que previo a ello agrega los cambios realizados sobre los archivos
+git branch development: crea la rama development
+git checkout development: se sale de la rama actual (main) y se accede a la rama development
+Al realizar cambios estando en la rama development aparecera que han habido modificaciones en esta rama
